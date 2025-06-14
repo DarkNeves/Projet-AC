@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.senai-logo {
+    width: 100px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.btn-ver-planos {
+    background-color: #005CAA;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: #005CAA;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    margin-bottom: 30px;
+    width: 200%;
+}
+
+.main-logo {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    color: #005CAA;
+    margin: 0;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.options-container {
+    width: 100%;
+}
+
+.option {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-shield {
+    width: 150px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 60px;
+    color: #333;
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><path d="M50 0L0 20V60C0 90 50 120 50 120C50 120 100 90 100 60V20L50 0Z"/></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><path d="M50 0L0 20V60C0 90 50 120 50 120C50 120 100 90 100 60V20L50 0Z"/></svg>');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+
+/* Ícones específicos */
+.fa-search {
+    font-size: 40px;
+    position: absolute;
+    top: 65px;
+    left: 75px;
+    transform: rotate(25deg);
+    background: #f0f0f0;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fa-box-open {
+    font-size: 60px;
+}
+
+.fa-hand-holding {
+    font-size: 60px;
+}
+
+.fa-box-tisg {
+    font-size: 25px;
+    position: absolute;
+    top: 45px;
+    left: 62px;
+}
+
+.btn-action {
+    background-color: #005CAA;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
