@@ -13,7 +13,7 @@ html, body {
         border-radius: 12px;
         background: #fff;
         box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-        width: 330px;
+        width: 345px;
         margin: 60px auto;
         padding: 0px 0;
         border: #222 1px solid;
@@ -104,8 +104,8 @@ html, body {
 
 .seta-voltar {
     display: inline-block;
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
     border-left: 2px solid #222;
     border-bottom: 2px solid #222;
     transform: rotate(45deg);
@@ -120,7 +120,6 @@ html, body {
     text-decoration: none;
     color: #222;
     font-family: 'nunito', sans-serif;
-    font-weight: bold;
     font-size: 12px;
     padding: 1px 2px;
     display: inline-flex; 
@@ -130,7 +129,7 @@ html, body {
 
 .textvoltar {
     font-family: 'nunito', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #222;
     text-decoration: none;
     display: flex;
