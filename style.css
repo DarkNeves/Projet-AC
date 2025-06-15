@@ -91,6 +91,13 @@ h2 {
     width: 100%;
 }
 
+.oqprecisa {
+    font-size: 30px;
+    font-family: 'nunito', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 .option {
     margin-bottom: 40px;
     display: flex;
@@ -105,6 +112,7 @@ h2 {
     height: 20px; 
     width: 20px; 
     margin-top: 50px;
+    font-family: 'nunito', sans-serif;
 }
 
 .icon-inventario {
@@ -128,31 +136,33 @@ h2 {
 }
 
 .ach-button {
-    background-color: #005CAA;
+    background-color: #3476b6;
     color: white;
-    padding: 12px 30px;
+    padding: 4px 12px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 22px;
     margin-top: 70px;
     border: none;
     cursor: pointer;
     box-shadow: 1px 3px 4px rgba(0,0,0,0.2);
+    font-family: 'nunito', sans-serif;
 }
 
 .inv-button {
-    background-color: #005CAA;
+    background-color: #3476b6;
     color: white;
-    padding: 12px 30px;
+    padding: 4px 12px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 22px;
     margin-top: 70px;
     border: none;
     cursor: pointer;
     box-shadow: 1px 3px 4px rgba(0,0,0,0.2);
+    font-family: 'nunito', sans-serif;
 }
 
 .titulo {
@@ -174,6 +184,7 @@ h2 {
     align-items: center;
     gap: 110px;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 
@@ -218,21 +229,21 @@ h2 {
 /* A grade que organiza os links */
 .grid-contato {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
-    gap: 15px;                      /* Espaço entre os links */
+    grid-template-columns: 1.1fr 1.1fr; /* Duas colunas de tamanho igual */
+    gap: 10px;                      /* Espaço entre os links */
 }
 
 .link-contato {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:center;
     padding: 6px 16px;
     border: 2px solid #000000;
     border-radius: 12px;
     background-color: #ffffff; 
     text-decoration: none;
     color: #000000;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     transition: background-color 0.3s, transform 0.2s;
     min-width: 100px;
@@ -245,10 +256,37 @@ h2 {
 }
 
 /* Estilo para o ícone dentro do link */
-.icone-contato {
-    width: 28px;
-    height: 28px;
-    margin-right: 12px;
+.icone-contato-ins {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.icone-contato-wha {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    
+    
+}
+
+.icone-contato-tik {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.icone-contato-x {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+.icone-contato-gm {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 /* Estilo específico para o link de email, para que ocupe as duas colunas */
