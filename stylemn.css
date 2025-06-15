@@ -145,7 +145,7 @@
         }
     }
 
-@media (max-width: 600px) {
+@media (max-width: 300px) {
     .menu-animado {
         width: 98vw;
         min-width: unset;
