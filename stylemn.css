@@ -13,12 +13,12 @@ html, body {
         border-radius: 12px;
         background: #fff;
         box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-        width: 320px;
+        width: 370px;
         margin: 60px auto;
         padding: 0px 0;
         border: #222 1px solid;
         font-family: 'nunito', sans-serif;
-        font-size: 14px;
+        font-size: 20px;
         font-weight: bold;
         margin-top: 20px;
 
@@ -29,7 +29,7 @@ html, body {
         font-family: 'Nunito', sans-serif;
         font-weight: bold;
         margin-top: 30px;
-        font-size: 25px;
+        font-size: 40px;
         opacity: 0;
     animation: aparecerMenu 0.5s forwards;
     }
@@ -69,21 +69,21 @@ html, body {
     }
 
    .menu-animado li:first-child a {
-    border-top-left-radius: 10.5px;
-    border-top-right-radius: 10.5px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
    }
 
    .menu-animado li:last-child a:hover {
     background: #e0e0e0;
-    border-bottom-left-radius: 10.5px;
-    border-bottom-right-radius: 10.5px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
 }
 
 .menu-animado a::after {
     content: '';
     display: inline-block;
-    width: 8px;
-    height: 8px;
+    width: 13px;
+    height: 13px;
     border-right: 2px solid #0f0f0f;
     border-bottom: 2px solid #050505;
     transform: rotate(-45deg);
@@ -104,8 +104,8 @@ html, body {
 
 .seta-voltar {
     display: inline-block;
-    width: 7px;
-    height: 7px;
+    width: 13px;
+    height: 13px;
     border-left: 2px solid #222;
     border-bottom: 2px solid #222;
     transform: rotate(45deg);
@@ -131,7 +131,7 @@ html, body {
 .textvoltar {
     font-family: 'nunito', sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 22px;
     color: #222;
     text-decoration: none;
     display: flex;
