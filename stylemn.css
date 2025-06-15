@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
 
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
 
 .menu-animado {
         opacity: 0;
@@ -9,7 +13,7 @@
         border-radius: 12px;
         background: #fff;
         box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-        width: 260px;
+        width: 250px;
         margin: 60px auto;
         padding: 0px 0;
         border: #222 1px solid;
