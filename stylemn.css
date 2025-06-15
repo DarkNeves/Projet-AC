@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
+
+
 .menu-animado {
         opacity: 0;
         transform: translateY(-40px);
@@ -7,32 +11,136 @@
         box-shadow: 0 4px 24px rgba(0,0,0,0.15);
         width: 260px;
         margin: 60px auto;
-        padding: 32px 0;
+        padding: 0px 0;
         border: #222 1px solid;
+        font-family: 'nunito', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 20px;
+
     }
-    @keyframes aparecerMenu {
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
+
+    .titulo {
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        margin-top: 30px;
+        font-size: 25px;
+        opacity: 0;
+    animation: aparecerMenu 0.5s forwards;
     }
     .menu-animado ul {
         list-style: none;
         padding: 0;
         margin: 0;
+        text-align: left;
     }
     .menu-animado li {
         margin: 0;
-        padding: 0;
+        padding: 0 ;
+        border-bottom: #222 1px solid;
+    }
+
+    .menu-animado li:last-child {
+    border-bottom: none;
     }
     .menu-animado a {
         display: block;
-        padding: 14px 32px;
+        position: relative;
+        padding: 14px 20px;
         color: #222;
         text-decoration: none;
-        border-radius: 8px;
+        border-radius: 0px;
         transition: background 0.2s;
+        font-family: 'nunito', sans-serif;
     }
     .menu-animado a:hover {
         background: #e0e0e0;
+    }
+
+    .menu-animado li:nth-child(1) a,
+    .menu-animado li:nth-child(2) a {
+    background: #3476b6; 
+    color: #fff;
+    }
+
+   .menu-animado li:first-child a {
+    border-top-left-radius: 10.5px;
+    border-top-right-radius: 10.5px;
+   }
+
+   .menu-animado li:last-child a:hover {
+    background: #e0e0e0;
+    border-bottom-left-radius: 10.5px;
+    border-bottom-right-radius: 10.5px;
+}
+
+.menu-animado a::after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #0f0f0f;
+    border-bottom: 2px solid #050505;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 16px;   
+    top: 50%;
+    margin-top: -6px;
+    pointer-events: none;
+    border-radius: 2px;
+}
+
+.menu-animado li:nth-child(1) a::after,
+.menu-animado li:nth-child(2) a::after {
+    border-bottom: #fff 2px solid;
+    border-right: #fff 2px solid;
+    border-radius: 2px;
+}
+
+.seta-voltar {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-left: 2px solid #222;
+    border-bottom: 2px solid #222;
+    transform: rotate(45deg);
+    margin-right: 1px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.btn-voltar {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #222;
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1px 2px;
+    display: inline-flex; 
+    opacity: 0;
+    animation: aparecerMenu 0.5s forwards;
+}
+
+.textvoltar {
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    text-decoration: none;
+}
+
+@keyframes aparecerMenu {
+        from {
+            opacity: 0;
+            transform: translateX(40px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
