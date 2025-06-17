@@ -50,8 +50,8 @@ header {
     margin-right: 20px;
     font-size: 11px;
     font-family: 'nunito', sans-serif;
-    width: 60px;
-    height:18px;
+    width: 70px;
+    height:20px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -107,6 +107,7 @@ h2 {
 
 .options-container {
     width: 100%;
+    text-decoration: none;
 }
 
 .oqprecisa {
@@ -121,36 +122,35 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none important;
+}
+
+.z {
+    text-decoration: none !important;
+
 }
 
 .icon-achar {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px; 
-    width: 20px; 
-    margin-top: 50px;
+    margin-left: 5px;
+    width: 120px; 
+    margin-top: 0px;
     font-family: 'nunito', sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .icon-inventario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20px; 
-    width: 20px; 
-    margin-top: 50px;
+    display: block;         
+    width: 120px; 
+    margin: 0px auto 0 auto;
+    margin-bottom: 20px;
 }
 
-.fa-search {
-    font-size: 40px;
-    position: absolute;
-    top: 65px;
-    left: 75px;
-    transform: rotate(25deg);
-    background: #f0f0f0;
-    padding: 5px;
-    border-radius: 50%;
+.c {
+    text-decoration: none !important;
 }
 
 .ach-button {
@@ -161,7 +161,7 @@ h2 {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
-    margin-top: 70px;
+    margin-top: 0px;
     border: none;
     cursor: pointer;
     box-shadow: 1px 3px 4px rgba(0,0,0,0.2);
@@ -176,7 +176,6 @@ h2 {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
-    margin-top: 70px;
     border: none;
     cursor: pointer;
     box-shadow: 1px 3px 4px rgba(0,0,0,0.2);
@@ -256,7 +255,7 @@ h2 {
     align-items:center;
     justify-content:center;
     padding: 6px 16px;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: 12px;
     background-color: #ffffff; 
     text-decoration: none;

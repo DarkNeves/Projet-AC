@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #f0f0f0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.logo-s{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo-achar {
+    width: 120px;
+}
+
+.cons {
+    text-align: center;
+    font-size: 29px;
+    font-family: 'nunito', sans-serif;
+}
+
+.input-contato {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    border: #2b5db5 2px solid;
+    width: 320px;
+    height: 30px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;}
+
+.campo-flutuante {
+    position: relative;
+    width: 100%;
+    margin: 16px 0;
+}
+
+.label-contato {
+    position: absolute;
+    top: -8px;
+    background: #fff;
+    padding: 0 4px;
+    font-size: 12px;
+    color: #222;
+    pointer-events: none;
+    transition: 0.2s;
+    left: 41%;
+    border-radius: 3px;
+    border: #2b5db5 1px solid;
+    background-color: #2b5db5;
+    color: #fff;
+
+}
