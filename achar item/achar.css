@@ -24,8 +24,9 @@ main{
 
 .cons {
     text-align: center;
-    font-size: 29px;
+    font-size: 35px;
     font-family: 'nunito', sans-serif;
+    font-weight: bold;;
 }
 
 .input-contato {
@@ -60,7 +61,7 @@ main{
     color: #222;
     pointer-events: none;
     transition: 0.2s;
-    left: 41%;
+    margin-left: 130px;
     border-radius: 3px;
     border: #1a1a1a 1.2px solid;
     background-color: #3476b6;
