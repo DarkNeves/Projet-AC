@@ -6,7 +6,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 345px;
     height: 500px;
     margin: 0 auto;
     background-color: #ffffff;
@@ -34,13 +34,12 @@ main{
     display: flex;
     border-radius: 8px;
     border: #1a1a1a 2px solid;
-    width: 355px;
+    width: 310px;
     height: 40px;
     box-sizing: border-box;
     outline: none;
     font-size: 14px;
-    margin-left: 23px;
-    margin-right: 23px;
+    margin: auto;
     font-family: 'nunito', sans-serif;
     background-color: #edecec;
 
@@ -73,7 +72,7 @@ main{
 .lupa-icon {
     position: absolute;
     width: 24px;
-    margin-left: 23px;
+    margin-left: 17px;
     margin-top: -40px;
     display: flex;
     border: #1a1a1a 2px solid;
@@ -84,8 +83,10 @@ main{
 
 .loc-dat {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 310px;
+    position: relative;
 }
 
 .input-loc{
@@ -93,20 +94,13 @@ main{
     display: flex;
     border-radius: 8px;
     border: #1a1a1a 2px solid;
-    width: auto;
+    width: 100%;
     height: 40px;
     box-sizing: border-box;
     outline: none;
     font-size: 14px;
-    margin-left: 23px;
     font-family: 'nunito', sans-serif;
     background-color: #edecec;
-}
-
-.loc-dat {
-    position: relative;
-    width: 100%;
-    margin: 5px 0;
 }
 
 .label-loc {
@@ -118,7 +112,7 @@ main{
     color: #222;
     pointer-events: none;
     transition: 0.2s;
-    left: 91.5px;
+    left: 58px;
     border-radius: 3px;
     border: #1a1a1a 1.2px solid;
     background-color: #3476b6;
@@ -131,12 +125,11 @@ main{
     display: flex;
     border-radius: 8px;
     border: #1a1a1a 2px solid;
-    width: auto;
+    width: 100%;
     height: 40px;
     box-sizing: border-box;
     outline: none;
     font-size: 14px;
-    margin-right: 23px;
     font-family: 'nunito', sans-serif;
     background-color: #edecec;
 }
@@ -150,7 +143,7 @@ main{
     color: #222;
     pointer-events: none;
     transition: 0.2s;
-    left: 270px;
+    left: 218px;
     border-radius: 3px;
     border: #1a1a1a 1.2px solid;
     background-color: #3476b6;
@@ -164,13 +157,12 @@ main{
     display: flex;
     border-radius: 8px;
     border: #1a1a1a 2px solid;
-    width: 355px;
+    width: 310px;
     height: 40px;
     box-sizing: border-box;
     outline: none;
     font-size: 14px;
-    margin-left: 23px;
-    margin-right: 23px;
+    margin: auto;
     font-family: 'nunito', sans-serif;
     background-color: #edecec;
 
