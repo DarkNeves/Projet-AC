@@ -30,7 +30,9 @@ main{
 
 .mainmain{
     width: 345px;
-
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
 
 .titulo-inv {
@@ -44,7 +46,7 @@ main{
 
 .ach-rec {
     text-align: left;
-    margin-left: 30px;
+    margin-left: 0;
     margin-top: 30px;
     font-size: 16px;
     font-family: 'nunito', sans-serif;
@@ -52,10 +54,12 @@ main{
 
 }
 
-.campo{
-    display: flex;
+.campo1, .campo2, .campo3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .ft1{
@@ -75,6 +79,24 @@ main{
     border-radius: 12px;
 }
 
+.ft3{
+    display: inline-block;
+    width: 167px;
+    height: 210px;
+    border: 2px solid #0a0909;
+    border-radius: 12px;
+}
+
+.ft4{
+    display: inline-block;
+    width: 167px;
+    height: 210px;
+    border: 2px solid #0a0909;
+    border-radius: 12px;
+}
+
+
+
 .it {
     width: 167px;
     height: 210px;
@@ -85,12 +107,23 @@ main{
     position: absolute;
     width: 169px;
     height: 90px;
-    border-radius: 12px;
+    border-radius: 10px;
     background-image: linear-gradient(to top, black, transparent);
-    bottom: 0;
+    top: 122px;
+
 }
 
-.txt-d{
+.inf4{
+    position: absolute;
+    width: 169px;
+    height: 90px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, black, transparent);
+    bottom: 0;
+    
+}
+
+.txt-d1{
     position: absolute;
     font-size: 13px;
     font-family: 'nunito';
@@ -98,5 +131,66 @@ main{
     color: #ffffff;
     margin-bottom: 10px;
     margin-left: 6px;
-    font-weight:900px;
+    font-weight:bold;
 }
+
+.txt-d2{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'nunito';
+    bottom: 0;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.txt-d3{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'nunito';
+    bottom: 0;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.txt-d4{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'nunito';
+    bottom: 0;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.txt-d5{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'nunito';
+    bottom: 0;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.txt-d6{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'nunito';
+    bottom: 0;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.txt-fnl{
+    font-family: 'nunito';
+    font-size: 12px;
+}
+
