@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
+
+
+.logo-cm {
+    position: relative;
+    height: 20px;
+
+}
+
+.logo-cmm {
+    position: absolute;
+    right: 0;
+    margin-top: -25px;
+    width: 35px;
+    height: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 20px;
+    max-width: 345px;
+}
+
+.mainmain{
+    width: 345px;
+
+}
+
+.titulo-inv {
+    text-align: center !important;
+    font-size: 35px;
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;;
+    display: block;
+    width: 100%;
+}
+
+.ach-rec {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'nunito', sans-serif;
+    text-decoration: underline;
+
+}
+
+.campo{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.ft1{
+    display: inline-block;
+    width: 167px;
+    height: 210px;
+    border: 2px solid #0a0909;
+    border-radius: 12px;
+
+}
+
+.ft2{
+    display: inline-block;
+    width: 167px;
+    height: 210px;
+    border: 2px solid #0a0909;
+    border-radius: 12px;
+}
+
+.it {
+    width: 167px;
+    height: 210px;
+    border-radius: 12px;
+}
+
+.inf{
+    position: absolute;
+    width: 169px;
+    height: 90px;
+    border-radius: 12px;
+    background-image: linear-gradient(to top, black, transparent);
+    bottom: 0;
+}
+
+.txt-d{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'nunito';
+    bottom: 0;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    font-weight:900px;
+}
