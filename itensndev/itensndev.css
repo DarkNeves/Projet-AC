@@ -1,0 +1,16 @@
+.titulo-ndev {
+    text-align: center !important;
+    font-size: 35px;
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;;
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.destn{
+    background-color: red;
+    padding: 0 5px;
+    border-radius: 10px;
+    color: #ffffff;
+}

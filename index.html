@@ -6,11 +6,16 @@
     <title>Achados & Conectados - Portal Corporativo</title>
     <link rel="stylesheet" href="styleinc.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
+    <header class="animate__animated animate__fadeIn">
         
-        <img src="img/logosenai.png" alt="Logo SENAI" class="senai-logo">
+        <img src="img/logosenai.png" alt="Logo SENAI" class="senai-logo animate__animate__backInDown" fetchpriority="high">
         <div class="header-right">
             <a href="#" class="btn-ver-planos">Ver planos</a>
             <a href="menu/menu.html" class="btn-menu">
@@ -21,9 +26,9 @@
         </div>
     </header>
 
-    <main>
+    <main class="animate__animated animate__fadeIn">
         <div class="logo-container">
-            <img src="img/logo.svg" width="1000px" alt="Logo Achados & Conectados" class="main-logo">
+            <img src="img/logo.svg" width="1000px" alt="Logo Achados & Conectados" class="main-logo" fetchpriority="high">
             <h1>ACHADOS & CONECTADOS</h1>
             <p class="subtitle">PORTAL CORPORATIVO</p>
         </div>
@@ -33,14 +38,14 @@
         <div class="options-container">
             <div class="option">
                 <a href="achar item/achar.html" class="z">
-                    <img src="img/acharitem.jpg" alt="Achar item" class="icon-achar">
+                    <img src="img/acharitem.jpg" alt="Achar item" class="icon-achar" loading="lazy">
               <span class="ach-button">Achar item</span>
                 </a>
                 </div>
 
             <div class="option">
                 <a href="inventario/inventario.html" class="c">
-                  <img src="img/cadastro.png" width="120px" alt="Achar item" class="icon-inventario">
+                  <img src="img/cadastro.png" width="120px" alt="Achar item" class="icon-inventario" loading="lazy">
                 <span class="inv-button">Inventário de itens</span>
                 </a>
             </div>
@@ -56,14 +61,14 @@
 
         <div class="pastas">
             <div class="itensdev">
-                <a href="#">
-                <img src="img/verde.jpg" width="100px" alt="Itens devolvidos">
+                <a href="itensdev/itensdev.html">
+                <img src="img/verde.jpg" width="100px" alt="Itens devolvidos" loading="lazy">
                 </a>
             </div>
 
             <div class="itensndev">
-                <a href="#">
-                <img src="img/vermelho.jpg" width="100px" alt="Itens não devolvidos">
+                <a href="/itensndev/itensndev.html">
+                <img src="img/vermelho.jpg" width="100px" alt="Itens não devolvidos" loading="lazy">
                 </a>
             </div>
         </div>
@@ -73,41 +78,40 @@
          <a href="#" class="itensndev-link">Itens <strong>não devolvidos</strong></a>
         </div>
 
-    <section class="secao-contato">
+    <section class="secao-contato animate__animated animate__fadeIn">
         
         <h2 class="titulo-secao">Contato</h2>
 
         <div class="grid-contato">
             <a href="https://www.instagram.com/achadoseconects/" target="_blank" class="link-contato">
-                <img src="img/instagram.webp" alt="Ícone Instagram" class="icone-contato-ins">
+                <img src="img/instagram.webp" alt="Ícone Instagram" class="icone-contato-ins" loading="lazy">
                 <span>@Acahdoseconects</span>
             </a>
 
             <a href="https://api.whatsapp.com/send/?phone=5595991367951" target="_blank" class="link-contato">
-                <img src="img/whatsapp.webp" alt="Ícone WhatsApp" class="icone-contato-wha">
+                <img src="img/whatsapp.webp" alt="Ícone WhatsApp" class="icone-contato-wha" loading="lazy">
                 <span>Enviar mensagem</span>
             </a>
 
             <a href="https://x.com/AchadoseConects" target="_blank" class="link-contato">
-                <img src="img/x.webp" alt="Ícone X" class="icone-contato-x">
+                <img src="img/x.webp" alt="Ícone X" class="icone-contato-x" loading="lazy">
                 <span>@AchadoseConects</span>
             </a>
 
             <a href="https://www.tiktok.com/@achadoseconectado" target="_blank" class="link-contato">
-                <img src="img/tiktok.webp"Ícone TikTok" class="icone-contato-tik">
+                <img src="img/tiktok.webp"Ícone TikTok" class="icone-contato-tik" loading="lazy">
                 <span>@Achadoseconectado</span>
             </a>
 
             <a href="mailto:Achadoseconectados.corp@gmail.com" class="link-contato link-email">
-                <img src="img/gmail.webp" alt="Ícone Gmail" class="icone-contato-gm">
+                <img src="img/gmail.webp" alt="Ícone Gmail" class="icone-contato-gm" loading="lazy">
                 <span>Achadoseconectados.corp@gmail.com</span>
             </a>
         </div>
         
     </section>
-
+    </main>
 
     
-    </main>
 </body>
 </html>

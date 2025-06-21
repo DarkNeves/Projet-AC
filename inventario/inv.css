@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
-
 
 .logo-cm {
     position: relative;
@@ -100,7 +97,7 @@ main{
 .it {
     width: 167px;
     height: 210px;
-    border-radius: 12px;
+    border-radius: 10.5px;
 }
 
 .inf{
@@ -123,7 +120,7 @@ main{
     
 }
 
-.txt-d1{
+.txt-formt{
     position: absolute;
     font-size: 13px;
     font-family: 'nunito';
@@ -132,61 +129,6 @@ main{
     margin-bottom: 10px;
     margin-left: 6px;
     font-weight:bold;
-}
-
-.txt-d2{
-    position: absolute;
-    font-size: 13px;
-    font-family: 'nunito';
-    bottom: 0;
-    color: #ffffff;
-    margin-bottom: 10px;
-    margin-left: 6px;
-    font-weight: bold;
-}
-
-.txt-d3{
-    position: absolute;
-    font-size: 13px;
-    font-family: 'nunito';
-    bottom: 0;
-    color: #ffffff;
-    margin-bottom: 10px;
-    margin-left: 6px;
-    font-weight: bold;
-}
-
-.txt-d4{
-    position: absolute;
-    font-size: 13px;
-    font-family: 'nunito';
-    bottom: 0;
-    color: #ffffff;
-    margin-bottom: 10px;
-    margin-left: 6px;
-    font-weight: bold;
-}
-
-.txt-d5{
-    position: absolute;
-    font-size: 13px;
-    font-family: 'nunito';
-    bottom: 0;
-    color: #ffffff;
-    margin-bottom: 10px;
-    margin-left: 6px;
-    font-weight: bold;
-}
-
-.txt-d6{
-    position: absolute;
-    font-size: 13px;
-    font-family: 'nunito';
-    bottom: 0;
-    color: #ffffff;
-    margin-bottom: 10px;
-    margin-left: 6px;
-    font-weight: bold;
 }
 
 .txt-fnl{
