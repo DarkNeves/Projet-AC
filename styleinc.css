@@ -25,12 +25,6 @@ header {
     background-color: #fff;
 }
 
-.senai-logo {
-    width: 65px;
-    opacity: 0;
-    animation: surgir 0.5s forwards;
-}
-
 .header-right {
     display: flex;
     align-items: center;
@@ -42,14 +36,14 @@ header {
     background-color: #3476b6;
     color: white;
     padding: 1px 4px;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     margin-right: 20px;
-    font-size: 11px;
+    font-size: 12px;
     font-family: 'nunito', sans-serif;
     width: 70px;
-    height:20px;
+    height:25px;
     text-align: center;
     align-items: center;
     justify-content: center;
