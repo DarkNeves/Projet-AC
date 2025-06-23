@@ -321,14 +321,14 @@ h2 {
 .aparecer{
     opacity: 0;
     filter: blur(15px);
-    transform: translateY(-100%);
+    transform: translateX(100%);
     transition: all 1s;
 }
 
 .aparecer-cmp{
     opacity: 1;
     filter: blur(0px);
-    transform: translateY(0);
+    transform: translateX(0);
     transition: all 1s;
 }
 
