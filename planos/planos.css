@@ -131,14 +131,14 @@
     opacity: 0;
     filter: blur(15px);
     transform: translateX(100%);
-    transition: all 0.8s;
+    transition: all 0.7s;
 }
 
 .aparecer-cmp{
     opacity: 1;
     filter: blur(0px);
     transform: translateX(0);
-    transition: all 0.8s;
+    transition: all 0.7s;
 }
 
 .aa :nth-child(2){

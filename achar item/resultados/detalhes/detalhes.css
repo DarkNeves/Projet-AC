@@ -1,0 +1,108 @@
+.seta-voltar {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-left: 2px solid #222;
+    border-bottom: 2px solid #222;
+    transform: rotate(45deg);
+    margin-right: 1px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.btn-voltar {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #222;
+    font-family: 'nunito', sans-serif;
+    font-size: 12px;
+    padding: 1px 2px;
+    display: inline-flex; 
+}
+
+.textvoltar {
+    font-family: 'nunito', sans-serif;
+    font-size: 17px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.logo-cm {
+    position: relative;
+    height: 20px;
+
+}
+
+.logo-cmm {
+    position: absolute;
+    right: 0;
+    margin-top: -25px;
+    width: 35px;
+    height: auto;
+}
+
+.aparecer{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateY(100%);
+    transition: all 0.7s;
+}
+
+.aparecer-cmp{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+    transition: all 0.7s;
+}
+
+.bloco{
+    width: 345px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    border: 1px solid black;
+}
+
+.titulo-det{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;
+    margin-bottom: 23px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.subbloco1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 310px;
+    position: relative;
+    padding: 13px;
+}
+
+.img{
+    border: 1px solid rgb(189, 13, 13);
+    width: 130px;
+    border-radius: 8px;
+}
+
+.it1{
+    width: 130px;
+    border-radius: 10.5px;
+    
+}
+
+.desc{
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 13px;
+    font-family: 'nunito';
+    width: 150px;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
