@@ -13,7 +13,7 @@
 }
 .bloco-prem {
     position: relative;
-    margin-bottom: 23px;
+    margin-bottom: 30px;
     padding: 15px;
     width: 295px;
     height: 600px;
@@ -21,12 +21,13 @@
     background-color: #3476b6;
     color: #fff;
     font-family: 'nunito';
+    box-shadow: 0 5px 20px rgb(6, 196, 82);
 
 }
 
 .bloco-stand{
     position: relative;
-    margin-bottom: 23px;
+    margin-bottom: 30px;
     padding: 15px;
     width: 295px;
     height: 470px;
@@ -34,12 +35,13 @@
     background-color: #3476b6;
     color: #fff;
     font-family: 'nunito';
+    box-shadow: 0 5px 20px  rgb(8, 98, 255);
 
 }
 
 .bloco-med{
        position: relative;
-    margin-bottom: 23px;
+    margin-bottom: 30px;
     padding: 15px;
     width: 295px;
     height: 450px;
@@ -47,6 +49,8 @@
     background-color: #3476b6;
     color: #fff;
     font-family: 'nunito';
+    box-shadow: 0 5px 20px red;
+
 
 }
 
@@ -91,6 +95,12 @@
 .des2{
     font-family: 'nunito';
     color: red;
+    font-weight: bold;
+}
+
+.des3{
+    font-family: 'nunito';
+    color: rgb(6, 196, 82);
     font-weight: bold;
 }
 

@@ -1,4 +1,8 @@
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 main{
     display: flex;
     flex-direction: column;

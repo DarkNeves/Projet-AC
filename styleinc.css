@@ -1,4 +1,8 @@
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -24,6 +28,7 @@ header {
     box-sizing: border-box;
     background-color: #fff;
 }
+
 
 .header-right {
     display: flex;
@@ -191,9 +196,10 @@ h2 {
 .pastas {
     display: flex;
     align-items: center;
-    gap: 110px;
-    margin-right: 20px;
+    gap: 70px;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -216,7 +222,7 @@ h2 {
     text-underline-offset: 3px;
     text-decoration-thickness: 1.2px;
     font-size: 80%;
-    margin-left: 50px;
+    
 }
 
 .links{
@@ -227,12 +233,29 @@ h2 {
 
 
 /* --- ESTILOS DA SEÇÃO DE CONTATO --- */
+.txt-c{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    padding: 10px;
+
+}
 
 .titulo-secao {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
     color: #333;
     margin-bottom: 25px; 
+    border: 1px solid #3476b6;
+    border-radius: 11px;
+    padding: 1px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'nunito';
+    
 }
 
 /* A grade que organiza os links */
@@ -301,14 +324,6 @@ h2 {
 /* Estilo específico para o link de email, para que ocupe as duas colunas */
 .link-email {
     grid-column: 1 / span 2;
-}
-
-.titulo-secao {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 15px; 
-    margin-top: 40px;
 }
 
 @keyframes surgir {

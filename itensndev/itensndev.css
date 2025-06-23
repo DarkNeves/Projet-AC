@@ -1,3 +1,7 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .titulo-ndev {
     text-align: center !important;
     font-size: 35px;
