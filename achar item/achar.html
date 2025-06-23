@@ -50,19 +50,25 @@
 
             <div class="data">
                 <label for = input-data class="label-dat">Data</label>
-                <input type text class="input-dat" placeholder="Quando foi?">
+                <input type="date" class="input-dat" placeholder="Quando foi?">
             </div>
         </div>
 
         <div class="campo-flutuante">
 
-        <input type="text" class="input-catg" placeholder="Categoria do item">
+        <input type="text" list="frutas"  class="input-catg" placeholder="Categoria do item">
+        <datalist id="frutas">
+          <option value="Maçã">
+          <option value="Banana">
+          <option value="Laranja">
+          <option value="Uva">
+        </datalist>
         <label for="input-catg" class="label-catg">Categoria</label>
 
         </div>      
         
         <div class="botao-consultar">
-            <a href="#" class="btn-consultar">
+            <a href="resultados/result.html" class="btn-consultar">
             <span>Consultar</span>
             </a>
         </div>

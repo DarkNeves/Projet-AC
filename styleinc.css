@@ -321,7 +321,7 @@ h2 {
 .aparecer{
     opacity: 0;
     filter: blur(15px);
-    transform: translateX(100%);
+    transform: translateX(70%);
     transition: all 1s;
 }
 

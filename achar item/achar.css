@@ -134,6 +134,8 @@ main{
     font-size: 14px;
     font-family: 'nunito', sans-serif;
     background-color: #edecec;
+    justify-items: center;
+    justify-content: center;
 }
 
 .label-dat {
@@ -205,4 +207,18 @@ main{
 
 .botao-consultar {
     margin-top: 20px;
+}
+
+.aparecer{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+.aparecer-cmp{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+    transition: all 1s;
 }

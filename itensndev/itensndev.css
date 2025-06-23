@@ -31,6 +31,38 @@
     max-width: 356px;
 }
 
+.seta-voltar {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-left: 2px solid #222;
+    border-bottom: 2px solid #222;
+    transform: rotate(45deg);
+    margin-right: 1px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.btn-voltar {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #222;
+    font-family: 'nunito', sans-serif;
+    font-size: 12px;
+    padding: 1px 2px;
+    display: inline-flex; 
+}
+
+.textvoltar {
+    font-family: 'nunito', sans-serif;
+    font-size: 17px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    text-decoration: none;
+}
+
 .aparecer{
     opacity: 0;
     filter: blur(15px);
