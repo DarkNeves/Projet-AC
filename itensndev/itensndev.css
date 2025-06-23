@@ -18,3 +18,27 @@
     border-radius: 10px;
     color: #ffffff;
 }
+
+.mainn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 20px;
+    max-width: 356px;
+}
+
+.aparecer{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+}
+
+.aparecer-cmp{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 1s;
+}

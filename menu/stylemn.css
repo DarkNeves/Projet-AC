@@ -130,3 +130,15 @@ html, body {
     display: flex;
     text-decoration: none;
 }
+
+.aparecer{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+}
+
+.aparecer-cmp{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 1s;
+}

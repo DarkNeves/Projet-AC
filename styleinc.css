@@ -33,8 +33,7 @@ header {
 .header-right {
     display: flex;
     align-items: center;
-    opacity: 0;
-    animation: surgir 0.5s forwards;
+  
 }
 
 .btn-ver-planos {
@@ -69,8 +68,6 @@ main {
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    opacity: 0;
-    animation: surgir 0.5s forwards;
 }
 
 .logo-container {
@@ -321,18 +318,22 @@ h2 {
     margin-right: 10px;
 }
 
+.aparecer{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+
+.aparecer-cmp{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+    transition: all 1s;
+}
+
 /* Estilo específico para o link de email, para que ocupe as duas colunas */
 .link-email {
     grid-column: 1 / span 2;
 }
 
-@keyframes surgir {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
