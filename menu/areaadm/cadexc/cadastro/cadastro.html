@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/menu/areaadm/cadexc/cadastro/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>cadastro</title>
+</head>
+<body>
+
+    <header class="aparecer">
+        <a href="../resultados/detalhes/detalhes.html" class="btn-voltar">
+            <span class="seta-voltar"></span><span class="textvoltar">Voltar</span>
+        </a>
+        <div class="logo-cm aparecer">
+            <img src="../../../../img/logo-s.png" alt="Logo Achados & Conectados" class="logo-cmm" loading="lazy">
+        </div>
+    </header>
+
+    <section class="blocot aparecer">
+        <div class="titulo-cad">
+            Cadastro de item
+        </div>
+    </section>
+
+    <section class="bloco1">
+        <div class="subbloco1 aparecer">
+            <label class="label-it">item achado</label>
+            <input class="it" type="text" placeholder="Nome da pessoa">
+
+            <div class="icon">
+                <img src="../../../../img/per.png" class="icon-img" loading="lazy">
+            </div>
+        </div>
+
+         <div class="subbloco3 aparecer">
+            <div class="dat">
+                <label class="label-dat">Data</label>
+                <input class="input-dat" type="date" placeholder="Quando foi achado?">
+            </div>
+
+            <div class="loc">
+                <label class="label-loc">Local</label>
+                <input class="input-loc" type="text" placeholder="Onde foi achado">
+            </div>
+        </div>
+
+        <div class="subbloco5 aparecer">
+            <label class="label-com">Imagem do item</label>
+                <label class="picture" for="pict-inp">
+                  <span class="ii"></span>
+                </label>
+                <input class="input-com" type="file" id="pict-inp" accept="image/*">
+
+            <div class="desc">
+                <label class="label-desc">Descrição do item</label>
+                <input class="input-desc" type="text" placeholder="descreva o item">
+            </div>
+        </div>
+
+        <div class="subbloco4 aparecer">
+            <div class="loc-d">
+                <label class="label-loc-d">Local deixado</label>
+                <input class="input-loc-d" type="text" placeholder="Onde se encontra?">
+            </div>
+        </div>
+
+
+        <div class="botao-solic aparecer">
+            <a href="cadastrado/cadastrado.html" class="btn-solic">
+            <span>Cadastrar</span>
+            </a>
+        </div>
+    </section>
+
+    <script src="../../../../javascrip/javas.js"></script>
+    <script src="../../../../javascrip/previmg.js"></script>
+    
+    
+</body>
+</html>
