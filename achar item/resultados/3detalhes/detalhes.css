@@ -66,20 +66,21 @@
 }
 
 .bloco :nth-child(3){
-    transition-delay: 390ms;
+    transition-delay: 400ms;
 }
 
 .bloco :nth-child(4){
-    transition-delay: 430ms;
+    transition-delay: 500ms;
 }
 
 .bloco :nth-child(5){
-    transition-delay: 470ms;
+    transition-delay: 600ms;
 }
 
 .bloco :nth-child(6){
-    transition-delay: 520ms;
+    transition-delay: 700ms;
 }
+
 
 .bloco{
     width: 345px;

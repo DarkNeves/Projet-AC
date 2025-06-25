@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/achar item/solicitação/solicitacao.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Solicitação</title>
+</head>
+<body>
+
+    <header class="aparecer">
+        <a href="../resultados/detalhes/detalhes.html" class="btn-voltar">
+            <span class="seta-voltar"></span><span class="textvoltar">Voltar</span>
+        </a>
+        <div class="logo-cm aparecer">
+            <img src="../../img/logo-s.png" alt="Logo Achados & Conectados" class="logo-cmm" loading="lazy">
+        </div>
+    </header>
+
+    <section class="bloco1 aparecer">
+        <div class="titulo-sol">
+            Solicitação
+        </div>
+    </section>
+
+    <section class="bloco1">
+        <div class="subbloco1 aparecer">
+            <label class="label-nom">Nome</label>
+            <input class="nom" type="text" placeholder="Nome da pessoa">
+
+            <div class="icon">
+                <img src="../../img/perfil.png" class="icon-img" loading="lazy">
+            </div>
+        </div>
+
+        <div class="subbloco2 aparecer">
+            <label class="label-cont">E-mail ou telefone</label>
+            <input class="cont" type="text" placeholder="E-mail ou celular">
+
+            <div class="icon-c">
+                <img src="../../img/contato.png" class="icon-cont" loading="lazy">
+            </div>
+        </div>
+
+         <div class="subbloco3 aparecer">
+            <div class="dat">
+                <label class="label-dat">Data</label>
+                <input class="input-dat" type="date" placeholder="Quando você perdeu?">
+            </div>
+
+            <div class="loc">
+                <label class="label-loc">Local</label>
+                <input class="input-loc" type="text" placeholder="Onde você perdeu?">
+            </div>
+        </div>
+
+        <div class="subbloco4 aparecer">
+            <label class="label-ob">Observações adicionais</label>
+            <input class="ob" type="text" placeholder="         Algo que só o dono saberia(obrigatório)">
+
+            <div class="icon-o">
+                <img src="../../img/observacao.png" class="icon-ob" loading="lazy">
+            </div>
+        </div>
+
+        <div class="subbloco5 aparecer">
+            <label class="label-com">Comprovante visual</label>
+                <label class="picture" for="pict-inp">
+                  <span class="ii"></span>
+                </label>
+                <input class="input-com" type="file" id="pict-inp" accept="image/*">
+
+            <div class="ca">
+                <label class="label-ca">Cargo do dono</label>
+                <input class="input-ca" type="text" placeholder="Qual seu cargo?">
+            </div>
+        </div>
+
+        <div class="botao-solic aparecer">
+            <a href="../solicitado/solicitado.html" class="btn-solic">
+            <span>Solicitar</span>
+            </a>
+        </div>
+    </section>
+
+    <script src="../../javascrip/previmg.js"></script>
+    <script src="../../../javascrip/javas.js"></script>
+    
+</body>
+</html>

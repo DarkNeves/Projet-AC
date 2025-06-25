@@ -379,6 +379,10 @@
 
 }
 
+.solic{
+    text-decoration: none;
+}
+
 .label-cd {
     position: absolute;
     top: -3px;

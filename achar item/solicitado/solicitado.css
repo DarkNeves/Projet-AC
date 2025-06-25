@@ -1,0 +1,109 @@
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.seta-voltar {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-left: 2px solid #222;
+    border-bottom: 2px solid #222;
+    transform: rotate(45deg);
+    margin-right: 1px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.btn-voltar {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #222;
+    font-family: 'nunito', sans-serif;
+    font-size: 12px;
+    padding: 1px 2px;
+    display: inline-flex; 
+}
+
+.textvoltar {
+    font-family: 'nunito', sans-serif;
+    font-size: 17px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    text-decoration: none;
+}
+
+
+.logo-cm {
+    position: relative;
+    height: 20px;
+
+}
+
+.logo-cmm {
+    position: absolute;
+    right: 0;
+    margin-top: -25px;
+    width: 35px;
+    height: auto;
+}
+
+.bloco{
+    width: 345px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    position: relative;
+    padding: 13px;
+    justify-items: center;
+
+}
+
+.pt{
+    width: 150px;
+    margin-top: 160px;
+}
+
+.subbloco2{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    font-family: 'nunito';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.subbloco3{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    font-family: 'nunito';
+}
+
+.aparecer{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 0.7s;
+}
+
+.aparecer-cmp{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 0.7s;
+}
+
+.bloco :nth-child(2){
+    transition-delay: 300ms;
+}
+
+.bloco :nth-child(3){
+    transition-delay: 390ms;
+}
