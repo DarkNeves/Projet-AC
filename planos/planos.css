@@ -127,6 +127,13 @@
     margin-bottom: 6px;
 }
 
+.a {
+    width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .aparecer{
     opacity: 0;
     filter: blur(15px);

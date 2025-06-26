@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="autori.css">
+    <link rel="stylesheet" href="../status/status.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
-    <title>Autorização</title>
+    <title>Status</title>
 </head>
 <body>
     
     <header class="aparecer a">
 
-    <a href="../../menu.html" class="btn-voltar">
+    <a href="../menu.html" class="btn-voltar">
             <span class="seta-voltar"></span><span class="textvoltar">Voltar</span>
         </a>
 
@@ -29,35 +29,22 @@
     <section class="main">
 
         <div class="titu aparecer">
-            Autorização
+            Status dos itens
         </div>
 
         <div class="bloco">
+
             <div class="subbloco1 aparecer">
-                <label class="label-nom">Nome completo</label>
-                <input class="nom" type="text" placeholder="    Nome do membro autorizado">
-
-                <div class="icon">
-                    <img src="../../../img/perfil.png" class="icon-img" loading="lazy">
-                </div>
-            </div>
-
-            <div class="subbloco2 aparecer">
                 <label class="label-cont">Código de autorização</label>
-                <input class="cont" type="number" placeholder="     Código de autenticação">
+                <input class="cont" type="text" placeholder="Código de autenticação">
 
                 <div class="icon-c">
                     <img src="../../../img/cod.png" class="icon-cont" loading="lazy">
                 </div>
             </div>
 
-            <div class="botao-autori aparecer">
-            <a href="../cadexc/cadexc.html" class="btn-autori">
-            <span>Autorizar</span>
-            </a>
-            </div>
-
-            <div class="subbloco3 aparecer">
+            
+            <div class="subbloco2 aparecer">
                 <div class="icone">
                     <img src="../../../img/impor.png" class="icone">
                 </div>
@@ -66,13 +53,18 @@
                     O <strong>código de autorização</strong> é único e só está disponível com as pessoas responsáveis pelo cadastro de item perdidos.
                 </div>
             </div>
-        </div>
-        </div>
 
+            <div class="botao-verf aparecer">
+            <a href="../status/verificar/verificar.html" class="btn-verf">
+            <span>Verificar</span>
+            </a>
+            </div>
 
+        </div>
+        
     </section>
 
-    <script src="../../../javascrip/javas.js"></script>
+    <script src="../../javascrip/javas.js"></script>
 
 </body>
 </html>

@@ -339,6 +339,13 @@
 
 }
 
+.a {
+    width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .label-ob {
     position: absolute;
     top: -3px;

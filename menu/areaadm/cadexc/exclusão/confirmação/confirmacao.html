@@ -36,7 +36,7 @@
                 <input class="nom" type="text" placeholder="    Item achado">
 
                 <div class="icon">
-                    <img src="../../../img/perfil.png" class="icon-img" loading="lazy">
+                    <img src="../../../../../img/caixa.png" class="icon-img" loading="lazy">
                 </div>
         </div>
 
@@ -60,7 +60,7 @@
 
 
         <div class="botao-excs aparecer">
-            <a href="../solicitado/solicitado.html" class="btn-excs">
+            <a href="../confirmação/excluido.html" class="btn-excs">
             <span>Excluir</span>
             </a>
         </div>
@@ -69,6 +69,37 @@
 
 
     </section>
+
+    <script src="../../../../../javascrip/javas.js"></script>
+    <script>const inputfile = document.querySelector('#pict-inp');
+        const pictureLabel = document.querySelector('.picture');
+        const placeholderTextSpan = document.querySelector('.ii');
+        const initialPlaceholderText = 'Imagem';
+
+        placeholderTextSpan.innerHTML = initialPlaceholderText;
+
+        inputfile.addEventListener('change', function(e) {
+            const inputTarget = e.target;
+            const file = inputTarget.files[0];
+
+            if (file) {
+                const reader = new FileReader();
+
+                reader.addEventListener('load', function(event) {
+                    pictureLabel.style.backgroundImage = `url('${event.target.result}')`;
+                    pictureLabel.style.backgroundSize = 'cover';
+                    pictureLabel.style.backgroundRepeat = 'no-repeat';
+                    pictureLabel.style.backgroundPosition = 'center';
+                    placeholderTextSpan.style.display = 'none';
+                });
+
+                reader.readAsDataURL(file);
+            } else {
+                pictureLabel.style.backgroundImage = 'none';
+                placeholderTextSpan.style.display = '';
+                placeholderTextSpan.innerHTML = initialPlaceholderText;
+            }
+        });</script>
 
 </body>
 </html>

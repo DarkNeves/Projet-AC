@@ -135,12 +135,13 @@
 }
 
 .icon-img{
-    width: 40px;}
+    width: 35px;
+    margin-top: 3px;
+}
 
 .bloco{
 
     width: 345px;
-    border: 1px solid black;
     display: grid;
     margin-left: auto;
     gap: 5px;
@@ -232,7 +233,7 @@
     background-color: #3476b6;
     color: #fff;
     font-family: 'nunito', sans-serif;
-    left: 213px;
+    left: 227px;
 }
 
 .btn-excs {
@@ -242,7 +243,7 @@
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
     border: none;
     cursor: pointer;
     box-shadow: 1px 3px 4px rgba(0,0,0,0.2);
@@ -257,6 +258,7 @@
     align-items: center;
     justify-content: center;
     width: 345px;
+    margin-left: -10px;
 }
 
 .subbloco6{
@@ -297,4 +299,18 @@
     background-color: #3476b6;
     color: #fff;
     font-family: 'nunito', sans-serif;
+}
+
+.aparecer{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateY(100%);
+    transition: all 0.7s;
+}
+
+.aparecer-cmp{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+    transition: all 0.7s;
 }

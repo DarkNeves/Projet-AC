@@ -88,12 +88,6 @@
     font-family: 'nunito';
 }
 
-.a {
-    width: 345px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 .aparecer{
     opacity: 0;
     filter: blur(15px);
@@ -104,12 +98,4 @@
     opacity: 1;
     filter: blur(0px);
     transition: all 0.7s;
-}
-
-.bloco :nth-child(2){
-    transition-delay: 300ms;
-}
-
-.bloco :nth-child(3){
-    transition-delay: 390ms;
 }
