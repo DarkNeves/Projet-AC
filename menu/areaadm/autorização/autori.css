@@ -260,9 +260,9 @@
 }
 
 .bloco1 :nth-child(3){
-    transition-delay: 390ms;
+    transition-delay: 70ms;
 }
 
 .bloco1 :nth-child(4){
-    transition-delay: 430ms;
+    transition-delay: 100ms;
 }

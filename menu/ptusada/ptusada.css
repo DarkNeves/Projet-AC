@@ -1,0 +1,157 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.seta-voltar {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-left: 2px solid #222;
+    border-bottom: 2px solid #222;
+    transform: rotate(45deg);
+    margin-right: 1px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.btn-voltar {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #222;
+    font-family: 'nunito', sans-serif;
+    font-size: 12px;
+    padding: 1px 2px;
+    display: inline-flex; 
+}
+
+.textvoltar {
+    font-family: 'nunito', sans-serif;
+    font-size: 17px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.a {
+    width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo-cm {
+    position: relative;
+    height: 20px;
+
+}
+
+.logo-cmm {
+    position: absolute;
+    right: 0;
+    margin-top: -25px;
+    width: 35px;
+    height: auto;
+}
+
+.titulo-ptusada {
+    text-align: center !important;
+    font-size: 35px;
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.bloco{
+    width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.txt{
+    font-family: 'nunito';
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.subbloco2{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    position: relative;
+    padding: 5px;
+    padding-bottom: 10px;
+    justify-items: center;
+}
+
+.html{
+    width: 110px;
+}
+
+.css{
+    width: 105px;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+.vscode{
+    width: 105px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.subbloco3{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    position: relative;
+    padding: 5px;
+    padding-bottom: 10px;
+    justify-items: center;
+    
+}
+
+.txtt{
+    position: absolute;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    left: 200px;
+    top: 139px;
+}
+
+.aparecer{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateY(100%);
+    transition: all 0.7s;
+}
+
+.aparecer-cmp{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+    transition: all 0.7s;
+}
+
+.bloco :nth-child(2){
+    transition-delay: 30ms;
+}
+
+.bloco :nth-child(3){
+    transition-delay: 50ms;
+}

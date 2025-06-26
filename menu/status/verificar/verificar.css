@@ -375,3 +375,60 @@
     left: 222px;
     margin-top: -8px;
 }
+
+.btn-exem {
+    background-color: #3476b6;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 3px 4px rgba(0,0,0,0.2);
+    font-family: 'nunito', sans-serif;
+    
+}
+
+.botao-exem {
+    margin-top: 20px;
+    display: flex;
+    justify-items: center;
+    width: 356px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.aparecer{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+}
+
+.aparecer-cmp{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 1s;
+}
+
+.bloco :nth-child(2){
+    transition-delay: 50ms;
+}
+
+.bloco :nth-child(3){
+    transition-delay: 70ms;
+}
+
+.bloco :nth-child(4){
+    transition-delay: 90ms;
+}
+
+.bloco :nth-child(5){
+    transition-delay: 110ms;
+}
+
+.bloco :nth-child(6){
+    transition-delay: 120ms;
+}
