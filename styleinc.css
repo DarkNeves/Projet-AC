@@ -52,7 +52,7 @@ header {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 .menu-icon {
@@ -226,6 +226,9 @@ h2 {
     
 }
 
+.a{
+    max-width: 330px;
+}
 .links{
     display: flex;
     align-items: center;
