@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 15px 10px;
     box-sizing: border-box;
     background-color: #fff;
 }
@@ -43,7 +43,7 @@ header {
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 12px;
     font-family: 'nunito', sans-serif;
     width: 70px;
@@ -52,6 +52,7 @@ header {
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-left: 150px;
 }
 
 .menu-icon {
@@ -75,6 +76,9 @@ main {
     width: 200%;
 }
 
+.imgs{
+    width: 65px;
+}
 .main-logo {
     width: 150px;
     margin-bottom: 10px;
@@ -319,7 +323,7 @@ h2 {
 }
 
 .a {
-    width: 345px;
+    width: 370px;
     margin-left: auto;
     margin-right: auto;
 
